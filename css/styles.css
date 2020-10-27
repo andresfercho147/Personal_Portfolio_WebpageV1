@@ -1,0 +1,42 @@
+:root{
+    /* Variables para almacenar colores */
+    --dark-blue:#002e4b;
+    --mid-blue:hsl(203, 91%, 31%);
+    --light-blue:#0491e9;
+    --dark-black:#17191a;
+    --mid-blck:#313233;
+    --grey:#e0e5e9;
+}
+body{
+    background-color: var(--dark-black);
+}
+header{
+    height: 300px;
+    background-image: url('../img/img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -200px;
+}
+.nav-style li{
+    list-style: none;
+    text-decoration:none;
+}
+.nav-style a{
+    writing-mode: vertical-lr;
+    font-weight: bold;
+    color: var(--light-blue);
+    text-decoration:none;
+}
+.profile-image{
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: -100px;
+}
+.portfolio-img{
+    height: 300px;
+}
+.style-footer{
+    color: var(--grey);
+}
